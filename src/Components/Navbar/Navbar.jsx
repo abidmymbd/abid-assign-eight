@@ -36,7 +36,7 @@ const Navbar = () => {
                 <a href="/">
                     <div className='flex justify-between items-center'>
                         <img className='w-8 mr-2' src={LogoImg} alt="" />
-                        <a className="font-bold text-xl bg-gradient-to-l from-purple-500 to-purple-700 bg-clip-text text-transparent">HERO.IO</a>
+                        <h1 className="font-bold text-xl bg-gradient-to-l from-purple-500 to-purple-700 bg-clip-text text-transparent">HERO.IO</h1>
                     </div>
                 </a>
             </div>

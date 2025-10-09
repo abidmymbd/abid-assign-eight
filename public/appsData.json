@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=800&q=80",
+    "image": "./Img/demo-ap(1).webp",
     "title": "PhotoSnap",
     "companyName": "PixelWave Inc.",
     "id": 1,
@@ -8,7 +8,7 @@
     "size": 85,
     "reviews": 1200,
     "ratingAvg": 4.6,
-    "downloads": 500000,
+    "downloads": "5M",
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 80 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1612831814073-e6e2f9b5c4bb?auto=format&fit=crop&w=800&q=80",
+    "image": "./Img/demo-ap(2).webp",
     "title": "TaskFlow",
     "companyName": "WorkSync Ltd.",
     "id": 2,
@@ -26,7 +26,7 @@
     "size": 42,
     "reviews": 860,
     "ratingAvg": 4.3,
-    "downloads": 230000,
+    "downloads": "2.3M",
     "ratings": [
       { "name": "1 star", "count": 30 },
       { "name": "2 star", "count": 50 },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0648?auto=format&fit=crop&w=800&q=80",
+    "image": "./Img/demo-ap(3).webp",
     "title": "FitTrack",
     "companyName": "HealthEdge",
     "id": 3,
@@ -44,7 +44,7 @@
     "size": 95,
     "reviews": 3400,
     "ratingAvg": 4.8,
-    "downloads": 1200000,
+    "downloads": "12M",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 120 },
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80",
+    "image": "./Img/demo-ap(4).webp",
     "title": "MusicVerse",
     "companyName": "SoundWave Studio",
     "id": 4,
@@ -62,7 +62,7 @@
     "size": 130,
     "reviews": 5400,
     "ratingAvg": 4.5,
-    "downloads": 3200000,
+    "downloads": "3.2M",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 400 },
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=800&q=80",
+    "image": "./Img/demo-ap(5).webp",
     "title": "NoteWise",
     "companyName": "PaperCloud",
     "id": 5,
@@ -80,7 +80,7 @@
     "size": 60,
     "reviews": 1900,
     "ratingAvg": 4.4,
-    "downloads": 800000,
+    "downloads": "8M",
     "ratings": [
       { "name": "1 star", "count": 120 },
       { "name": "2 star", "count": 160 },
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1502920514313-52581002a659?auto=format&fit=crop&w=800&q=80",
+    "image": "./Img/demo-ap(6).webp",
     "title": "TripBuddy",
     "companyName": "TravelPro Co.",
     "id": 6,
@@ -98,7 +98,7 @@
     "size": 110,
     "reviews": 2600,
     "ratingAvg": 4.7,
-    "downloads": 950000,
+    "downloads": "9.5M",
     "ratings": [
       { "name": "1 star", "count": 80 },
       { "name": "2 star", "count": 100 },
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1610484826967-09c5720778c8?auto=format&fit=crop&w=800&q=80",
+    "image": "./Img/demo-ap(1).webp",
     "title": "EduMate",
     "companyName": "BrightMind Labs",
     "id": 7,
@@ -116,7 +116,7 @@
     "size": 75,
     "reviews": 4700,
     "ratingAvg": 4.9,
-    "downloads": 2100000,
+    "downloads": "21M",
     "ratings": [
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 100 },
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1605902711622-cfb43c4437e1?auto=format&fit=crop&w=800&q=80",
+    "image": "./Img/demo-ap(2).webp",
     "title": "SafeWallet",
     "companyName": "SecurePay Ltd.",
     "id": 8,
@@ -134,7 +134,7 @@
     "size": 68,
     "reviews": 3800,
     "ratingAvg": 4.2,
-    "downloads": 1800000,
+    "downloads": "18M",
     "ratings": [
       { "name": "1 star", "count": 250 },
       { "name": "2 star", "count": 300 },
