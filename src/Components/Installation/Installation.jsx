@@ -6,7 +6,8 @@ const Installation = () => {
     const [installedApps, setInstalledApps] = useState([]);
     const [toast, setToast] = useState('');
     const [progress, setProgress] = useState(100);
-    const [sortOption, setSortOption] = useState('size');
+    const [sortOrder, setSortOrder] = useState('high');
+
     useEffect(() => {
         const stored = JSON.parse(localStorage.getItem('installedApps')) || [];
         setInstalledApps(stored);
@@ -17,7 +18,6 @@ const Installation = () => {
         const updated = installedApps.filter(app => app.id !== id);
         setInstalledApps(updated);
         localStorage.setItem('installedApps', JSON.stringify(updated));
-
 
         setToast(`${app.title} uninstalled successfully!`);
         setProgress(100);
@@ -34,16 +34,14 @@ const Installation = () => {
         }, 30);
     };
 
-
     const sortedApps = [...installedApps].sort((a, b) => {
-        if (sortOption === 'size') return b.size - a.size;
-        if (sortOption === 'downloads') return parseFloat(b.downloads) - parseFloat(a.downloads);
-        return 0;
+        const aDownloads = parseFloat(a.downloads);
+        const bDownloads = parseFloat(b.downloads);
+        return sortOrder === 'high' ? bDownloads - aDownloads : aDownloads - bDownloads;
     });
 
     return (
         <div className='py-15 bg-[#d2d2d233] relative'>
-
             {toast && (
                 <div className="fixed top-5 left-1/2 transform -translate-x-1/2 
                         bg-white text-gray-800 px-6 py-3 rounded-lg shadow-lg 
@@ -71,18 +69,17 @@ const Installation = () => {
                 </h1>
 
                 <div className="flex items-center gap-2">
-                    <label className='text-gray-600 text-sm'>Sort By</label>
+                    <label className='text-gray-600 text-sm'>Sort Downloads By </label>
                     <select
-                        value={sortOption}
-                        onChange={(e) => setSortOption(e.target.value)}
+                        value={sortOrder}
+                        onChange={(e) => setSortOrder(e.target.value)}
                         className='border border-gray-300 rounded-md px-3 py-1 text-sm focus:outline-none'
                     >
-                        <option value="size">Size</option>
-                        <option value="downloads">Downloads</option>
+                        <option value="high">High to Low</option>
+                        <option value="low">Low to High</option>
                     </select>
                 </div>
             </div>
-
 
             <div className='space-y-4 px-10'>
                 {sortedApps.length > 0 ? (
